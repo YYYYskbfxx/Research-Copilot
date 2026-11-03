@@ -16,6 +16,16 @@
 
 原型先定义研究流程、资料结构、人工复核状态和页面流转，再用原生前端与 Node.js 实现。设计重点是让 AI 帮忙组织候选分析，同时将“证据是否充分”和“是否形成产品机会”的判断留给使用者。当前页面支持材料和对话栏收起、证据定位、洞察卡编辑与本地保存。
 
+## 界面截图
+
+| 研究设计：可编辑方案 | 资料导入：预览与核对 |
+| --- | --- |
+| [![研究设计：填写目的、样本和评价维度并生成方案](images/research-plan.png)](images/research-plan.png) | [![资料导入：文本预览和参与者识别](images/material-import.png)](images/material-import.png) |
+
+[![分析工作区：研究材料、候选洞察与 AI 对话并排](images/analysis-workspace.png)](images/analysis-workspace.png)
+
+图中材料和参与者均为模拟案例。点击图片可查看完整尺寸；对应功能与人工复核节点详见[作品集案例](https://yyyyskbfxx.github.io/AI-Demo/research-project.html)。
+
 ## 体验与材料
 
 打开 `docs/index.html` 可体验离线流程。内置模拟案例有 6 位虚构参与者和 24 条记录；可单独导入 `docs/sample-research/` 中的 CSV。模拟材料与结论不代表真实实习项目或产品效果。工作区状态保存在当前浏览器的本地存储中。
