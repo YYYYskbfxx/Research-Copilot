@@ -56,5 +56,3 @@ Key 只在服务端读取。不要提交 `.env`，也不要将真实访谈、个
 - `docs/research.js`：研究方案、资料导入、证据引用、卡片编辑和对话界面。
 - `server.mjs`：静态文件服务和模型对话接口。
 - `docs/sample-research/`：可公开的模拟 CSV。
-
-SEO GEO做好
