@@ -16,15 +16,30 @@
 
 原型先定义研究流程、资料结构、人工复核状态和页面流转，再用原生前端与 Node.js 实现。设计重点是让 AI 帮忙组织候选分析，同时将“证据是否充分”和“是否形成产品机会”的判断留给使用者。当前页面支持材料和对话栏收起、证据定位、洞察卡编辑与本地保存。
 
-## 界面截图
+## 页面设计与功能
 
-| 研究设计：可编辑方案 | 资料导入：预览与核对 |
-| --- | --- |
-| [![研究设计：填写目的、样本和评价维度并生成方案](images/research-plan.png)](images/research-plan.png) | [![资料导入：文本预览和参与者识别](images/material-import.png)](images/material-import.png) |
+图中材料和参与者均为模拟案例。点击图片可查看完整尺寸；对应的人工复核节点也可在[作品集案例](https://yyyyskbfxx.github.io/AI-Demo/research-project.html)中查看。
 
-[![分析工作区：研究材料、候选洞察与 AI 对话并排](images/analysis-workspace.png)](images/analysis-workspace.png)
+### ① 研究设计
 
-图中材料和参与者均为模拟案例。点击图片可查看完整尺寸；对应功能与人工复核节点详见[作品集案例](https://yyyyskbfxx.github.io/AI-Demo/research-project.html)。
+<p align="center"><a href="images/research-plan.png"><img src="images/research-plan.png" alt="研究设计：填写目的、样本和评价维度并生成方案" width="780"></a></p>
+
+- **定义问题：**输入研究内容、目的、范围样本与评价维度。
+- **生成方案：**草稿可直接修改，研究者保留最终设计判断。
+
+### ② 资料导入
+
+<p align="center"><a href="images/material-import.png"><img src="images/material-import.png" alt="资料导入：文本预览和参与者识别" width="780"></a></p>
+
+- **分类导入：**主观和客观资料可单独导入；支持 CSV、TXT 与粘贴文本。
+- **入库检查：**预览原始内容、字段映射、参与者 ID 和缺失情况后再确认。
+
+### ③ 分析工作区
+
+<p align="center"><a href="images/analysis-workspace.png"><img src="images/analysis-workspace.png" alt="分析工作区：研究材料、候选洞察与 AI 对话并排" width="780"></a></p>
+
+- **证据追溯：**原始记录、支持与相反证据可定位核对。
+- **人工复核：**AI 候选洞察可编辑，研究者确认后才形成产品机会和报告。
 
 ## 体验与材料
 
